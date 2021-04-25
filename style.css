@@ -1,3 +1,35 @@
+body{
+  font-family: tahoma;
+}
+
+
+
+
+
+/*--- NavBar Links ---*/
+
+#active{
+  font-weight: bold;
+  color: white !important;
+}
+.nav-link{
+    font-size: 1.2em;
+    padding-left: 1em !important;
+}
+.nav-item{
+  color: black;
+}
+
+
+.navbar-brand{
+  font-weight: bold;
+  margin-right: 5%;
+  margin-left: 3%;
+  font-size: 1.5em;
+}
+
+
+
 
 .card-foot{
   margin: auto;
@@ -34,12 +66,69 @@
 
 /*-----------*/
 
-.logos {
+/* .logos {
   height: 30px;
   /*background-color: green;*/
-  margin:  10px;
-  float: right;
+  /* margin:  10px; */
+  /* float: right;} */
+
+.logos{
+  height:30px;
+  width: 150px;
+  float:right;
+
 }
+
+.logo-bg{
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  height: 100%;
+  width:25%;
+   display: inline;
+   float: left;
+
+}
+
+#twitter{
+  background-image: url("img/twitter-white-128.png");
+
+}
+#twitter:hover{
+  background-image: url("img/twitter-gray-128.png");
+}
+
+#linked-in{
+  background-image: url("img/linkedin-white-128.png");
+
+}
+#linked-in:hover{
+  background-image: url("img/linkedin-gray-128.png");
+}
+
+
+#github{
+  background-image: url("img/github-white-128.png");
+
+}
+#github:hover{
+  background-image: url("img/github-gray-128.png");
+}
+
+#email{
+  background-image: url("img/email-white-128.png");
+
+}
+#email:hover{
+  background-image: url("img/email-gray-128.png");
+}
+
+
+
+
+
+/*--------------------------*/
+
+
 
 .center:{
 
@@ -58,11 +147,18 @@ img{
 
 h1{
   text-align: center;
+  margin-bottom: 2%;
 }
+
+/*------*/
 
 .main-text{
   margin-top: 2%;
-  margin-left: 5%;
+  margin-left: 1%;
   margin-right: 5%;
   margin-bottom: 0%;
+}
+
+.main-text p{
+  margin-bottom: 10%;
 }

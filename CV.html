@@ -7,39 +7,40 @@
   <link rel = "stylesheet" href="style.css">
 </head>
 <body>
-
   <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" >
-    <div class="container-fluid" style = "background-color: red;">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-3" >
+
+    <div class="container-fluid" style = "height: 100%;">
 
       <a class="navbar-brand" href="#">William Spagnola</a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-              aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                  aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
 
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup" class="center">
+          <!-- Collapsible Navigation Bar links-->
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup" class="center">
+              <div class="navbar-nav" >
+                <a class="nav-link" href="index.html">About</a>
+                <a class="nav-link active" aria-current="page"  id = "active" href="CV.html">CV</a>
+                <a class="nav-link" href="projects.html">Projects</a>
+                <a class="nav-link" href = 'https://wspagnola.netlify.app'>Blog</a>
+              </div>
+          </div>
 
-        <div class="navbar-nav" >
-          <a class="nav-link"  href="index.html">About</a>
-          <a class="nav-link active"  aria-current="page"  href="CV.html">CV</a>
-          <a class="nav-link " href="projects.html">Projects</a>
-          <a class="nav-link" href = 'https://wspagnola.netlify.app'>Blog</a>
-        </div>
-
-
-      </div>
-
-    <div class = "logos">
-      <a href= "https://twitter.com/williamspagnola?lang=en"?><img src='img/twitter-black-128.png'></a>
-      <a href= "https://www.linkedin.com/in/william-spagnola-831789169"><img src='img/linkedin-black-128.png'></a>
-      <a href= "https://github.com/wspagnola"><img src='img/github-black-128.png'></a>
-    </div>
-
+          <!-- Social Media/Email Icons -->
+          <div class = "logos">
+            <div class = "logo-bg" id="linked-in"></div>
+            <div class = "logo-bg" id="github"></div>
+            <div class = "logo-bg" id="twitter"></div>
+            <div class = "logo-bg" id="email"></div>
+          </div>
     </div>
   </nav>
+  <!--- END OF NAVIGATION BAR-->
+
 
 
     <!-- Embedded pdf -->
