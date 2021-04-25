@@ -1,4 +1,39 @@
 
+.card-foot{
+  margin: auto;
+  /* margin-bottom: 3%; */
+}
+
+.card-foot button{
+  /* margin-left: auto; margin-right: auto; */
+  /* background-color: pink; */
+  width: 90%;
+}
+
+/*-----------*/
+
+.card-img-top{
+  width: 99%;
+  height: 60%;
+
+}
+
+.card-text{
+  height: 40%;
+  margin-bottom: 6%;
+}
+
+.card{
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+   margin-right: auto;
+   margin-top: 2%;
+   /* display: inline-block; */
+}
+
+/*-----------*/
+
 .logos {
   height: 30px;
   /*background-color: green;*/
