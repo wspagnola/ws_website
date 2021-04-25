@@ -72,6 +72,10 @@ body{
   /* margin:  10px; */
   /* float: right;} */
 
+
+.card-title h5{
+  font-weight: bold;
+}
 .logos{
   height:30px;
   width: 150px;
