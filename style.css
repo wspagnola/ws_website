@@ -4,31 +4,22 @@ body{
 
 
 
-
-
-/*--- NavBar Links ---*/
-
-#active{
-  font-weight: bold;
-  color: white !important;
-}
-.nav-link{
-    font-size: 1.2em;
-    padding-left: 1em !important;
-}
-.nav-item{
-  color: black;
+img{
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 
-.navbar-brand{
-  font-weight: bold;
-  margin-right: 5%;
-  margin-left: 3%;
-  font-size: 1.5em;
+h1{
+  text-align: center;
+  margin-bottom: 2%;
 }
 
 
+
+/*--- Project Cards ---*/
 
 
 .card-foot{
@@ -59,27 +50,50 @@ body{
   width: 100%;
   height: 100%;
   margin-left: auto;
-   margin-right: auto;
-   margin-top: 2%;
+  margin-right: auto;
+  margin-top: 2%;
+  border: 1px solid black;
+  border-radius: 5px;
    /* display: inline-block; */
 }
 
-/*-----------*/
 
-/* .logos {
-  height: 30px;
-  /*background-color: green;*/
-  /* margin:  10px; */
-  /* float: right;} */
 
 
 .card-title h5{
   font-weight: bold;
 }
+
+
+
+/*--- NavBar Links ---*/
+
+#active{
+  font-weight: bold;
+  color: white !important;
+}
+.nav-link{
+    font-size: 1.2em;
+    padding-left: 1em !important;
+}
+.nav-item{
+  color: black;
+}
+
+
+.navbar-brand{
+  font-weight: bold;
+  margin-right: 5%;
+  margin-left: 3%;
+  font-size: 1.5em;
+}
+
+
+
+/*--- Social Media/Email Favicons in Navbar ----*/
 .logos{
   height:30px;
   width: 150px;
-  float:right;
 
 }
 
@@ -88,9 +102,32 @@ body{
   background-repeat: no-repeat;
   height: 100%;
   width:25%;
-   display: inline;
-   float: left;
+  display: inline;
+  float: left;
 
+}
+
+ @media (max-width: 991px) and (min-width:600px){
+  .logos-flt{
+  float: left;
+  margin-left: 2%;
+  background-color: yellow;
+  }
+}
+
+@media (max-width: 599px){
+ .logos-flt{
+ float: left;
+ margin-left: 4%;
+ }
+}
+
+@media (min-width: 992px){
+  .logos-flt{
+    float: right;
+    margin-left: auto;
+    background-color: green;
+  }
 }
 
 #twitter{
@@ -141,18 +178,6 @@ body{
   background-color: pink;
 }
 
-img{
-  max-width: 100%;
-  max-height: 100%;
-  margin-left: 2px;
-  margin-right: 2px;
-}
-
-
-h1{
-  text-align: center;
-  margin-bottom: 2%;
-}
 
 /*------*/
 
