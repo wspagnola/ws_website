@@ -8,45 +8,57 @@
   <link rel = "stylesheet" href="style.css">
 </head>
 <body>
+
   <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-3" >
 
     <div class="container-fluid" style = "height: 100%;">
 
+      <!-- "Brand" Name -->
       <a class="navbar-brand" href="#">William Spagnola</a>
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-                  aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
+      <!-- Button to Collapse in Mobile Viewport-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+              aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
 
-          <!-- Collapsible Navigation Bar links-->
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup" class="center">
-              <div class="navbar-nav" >
-                <a class="nav-link" href="index.html">About</a>
-                <a class="nav-link active" aria-current="page"  id = "active" href="CV.html">CV</a>
-                <a class="nav-link" href="projects.html">Projects</a>
-                <a class="nav-link" href = 'https://wspagnola.netlify.app'  target="_blank">Blog</a>
-              </div>
+      <!-- Collapsible Navigation Bar-->
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup" class="center">
+          <!--Page Links-->
+          <div class="navbar-nav">
+            <a class="nav-link" href="index.html">About</a>
+            <a class="nav-link active" href="CV.html" aria-current="page" id = "active">CV</a>
+            <a class="nav-link" href="projects.html">Projects</a>
+            <a class="nav-link" href = 'https://wspagnola.netlify.app' target="_blank">Blog</a>
           </div>
-
           <!-- Social Media/Email Icons -->
-          <div class = "logos">
-            <div class = "logo-bg" id="linked-in"></div>
-            <div class = "logo-bg" id="github"></div>
-            <div class = "logo-bg" id="twitter"></div>
-            <div class = "logo-bg" id="email"></div>
+          <div class = "logos logos-flt">
+            <a href="https://www.linkedin.com/in/william-spagnola-831789169" target="_blank">
+                <div class = "logo-bg" id="linked-in" title="LinkedIn"></div>
+            </a>
+            <a href="https://github.com/wspagnola" target="_blank">
+              <div class = "logo-bg" id="github" title="Github"></div>
+            </a>
+            <a href="https://twitter.com/williamspagnola?lang=en" target="_blank">
+              <div class = "logo-bg" id="twitter" title="Twitter"></div>
+            </a>
+            <a href="mailto: whs278@nyu.edu">
+              <div class = "logo-bg" id="email" title="Email"></div>
+            </a>
           </div>
-    </div>
+      </div>
+
+  </div>
   </nav>
   <!--- END OF NAVIGATION BAR-->
 
-
-
-    <!-- Embedded pdf -->
-    <iframe src = "pdf/wspagnola_resume_2021.pdf" width = "100%" height="900px">
-    </iframe>
+    <div class = "col-md-12">
+      <!-- Embedded pdf -->
+      <iframe src = "pdf/wspagnola_resume_2021.pdf" width = "100%" height="900px"></iframe>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 
 </body>
 

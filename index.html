@@ -1,77 +1,76 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
+<head>
     <title> William Spagnola Website </title>
     <meta-charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel = "stylesheet" href="style.css">
-  </head>
-  <body>
+</head>
+<body>
 
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-3" >
 
       <div class="container-fluid" style = "height: 100%;">
 
+        <!-- "Brand" Name -->
         <a class="navbar-brand" href="#">William Spagnola</a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <!-- Button to Collapse in Mobile Viewport-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <!-- Collapsible Navigation Bar links-->
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup" class="center" style = "background-color: pink;">
-
-
-                <div class="navbar-nav" style = "background-color: orange;" >
-                  <a class="nav-link active" aria-current="page" id = "active" href="index.html">About</a>
-                  <a class="nav-link " href="CV.html">CV</a>
-                  <a class="nav-link" href="projects.html">Projects</a>
-                  <a class="nav-link" href = 'https://wspagnola.netlify.app'  target="_blank">Blog</a>
-                </div>
-
-
-                <!-- Social Media/Email Icons -->
-              <div class = "logos logos-flt" style = "background-color: brown;">
-                  <div class = "logo-bg" id="linked-in"></div>
-                  <div class = "logo-bg" id="github"></div>
-                  <div class = "logo-bg" id="twitter"></div>
-                  <div class = "logo-bg" id="email"></div>
-              </div>
-
-
-
-
+        <!-- Collapsible Navigation Bar-->
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup" class="center">
+            <!--Page Links-->
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" id = "active" href="index.html">About</a>
+              <a class="nav-link " href="CV.html">CV</a>
+              <a class="nav-link" href="projects.html">Projects</a>
+              <a class="nav-link" href = 'https://wspagnola.netlify.app'  target="_blank">Blog</a>
             </div>
-
+            <!-- Social Media/Email Icons -->
+          <div class = "logos logos-flt">
+              <a href="https://www.linkedin.com/in/william-spagnola-831789169" target="_blank">
+                  <div class = "logo-bg" id="linked-in" title="LinkedIn"></div>
+              </a>
+              <a href="https://github.com/wspagnola" target="_blank">
+                <div class = "logo-bg" id="github" title="Github"></div>
+              </a>
+              <a href="https://twitter.com/williamspagnola?lang=en" target="_blank">
+                <div class = "logo-bg" id="twitter" title="Twitter"></div>
+              </a>
+              <a href="mailto: whs278@nyu.edu">
+                <div class = "logo-bg" id="email" title="Email"></div>
+              </a>
+          </div>
+        </div>
 
       </div>
     </nav>
     <!--- END OF NAVIGATION BAR-->
 
+  <div style = "margin-top: 3%">
 
-    <div style = "margin-top: 3%">
+    <div class = "row">
 
-      <div class = "row">
-
-        <!-- Photo and Info -->
-        <div class = "col-lg-3" style = "text-align: center;">
-
-            <div style = "margin-top: 5%;">
-              <img src = "img/ws_photo1.jpg" style = "border-radius: 50%; height: 60%; width: 60%;">
-
-          <div style = "margin-top: 10%;"
-          <p>Statistician / Data Analyst  </p>
-          <p> wspagnola@nyu.edu </p>
-          <p> M.S. in Applied Statistics for Social Science Research </p>
-
-        </div>
-        </div>
-
+        <!-- Side Bar  -->
+        <div class = "col-lg-3" style = "text-align: center; margin-bottom: 5%;">
+          <!-- Photo -->
+          <div class= "head-shot-div">
+              <img src = "img/ws_photo1.jpg" class = "head-shot">
+          </div>
+          <!-- Info -->
+          <div style = "margin-top: 3%;"
+            <p>Statistician / Data Analyst  </p>
+            <p> wspagnola@nyu.edu </p>
+            <p> M.S. in Applied Statistics for Social Science Research </p>
+          </div>
         </div>
 
     <!--- About Me --->
@@ -79,8 +78,7 @@
       <div class = "main-text">
         <h1> About Me </h1>
             <p>Hello, my name is William (also Bill), and I’m passionate about exploring the intersection of data science and
-               social science research. I enjoy using statistics/data analysis to solve real-world problems.
-            </p>
+               social science research. I enjoy using statistics/data analysis to solve real-world problems.</p>
 
           <h1>Organization</h1>
             <p> I’m currently working for the Research Alliance for New York City Schools. My current projects include implementing

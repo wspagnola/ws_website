@@ -111,7 +111,6 @@ h1{
   .logos-flt{
   float: left;
   margin-left: 2%;
-  background-color: yellow;
   }
 }
 
@@ -126,7 +125,6 @@ h1{
   .logos-flt{
     float: right;
     margin-left: auto;
-    background-color: green;
   }
 }
 
@@ -164,7 +162,40 @@ h1{
 }
 
 
+/*--- Head Shot Media Queries ---*/
+@media (min-width: 992px){
+ .head-shot{
+   border-radius: 50%;
+   height: 60%;
+   width: 60%;
+  }
+  .head-shot-div{
+      margin-top: 5%;
+  }
+}
 
+@media (max-width: 991px){
+ .head-shot{
+   border-radius: 50%;
+   height: 25%;
+   width: 25%;
+  }
+  .head-shot-div{
+      margin-top: 3%;
+  }
+}
+
+
+@media (max-width: 700px){
+ .head-shot{
+   border-radius: 50%;
+   height: 40%;
+   width: 40%;
+  }
+  .head-shot-div{
+      margin-top: 3%;
+  }
+}
 
 
 /*--------------------------*/
@@ -182,7 +213,7 @@ h1{
 /*------*/
 
 .main-text{
-  margin-top: 2%;
+  margin-top: 1%;
   margin-left: 1%;
   margin-right: 5%;
   margin-bottom: 0%;
