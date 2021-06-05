@@ -19,20 +19,23 @@ h1{
 
 
 
+
 /*--- Project Cards ---*/
-
-
-.card-foot{
-  margin: auto;
-  /* margin-bottom: 3%; */
+.btn-div{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;"
 }
 
-.card-foot button{
-  /* margin-left: auto; margin-right: auto; */
-  /* background-color: pink; */
-  width: 90%;
+.btn-div a {
+  width: 100%;
 }
 
+
+.card-footer {
+  background-color: white;
+  border: none;
+}
 /*-----------*/
 
 .card-img-top{
@@ -58,7 +61,12 @@ h1{
 }
 
 
-
+.card-body{
+  /* use padding-bottom to adjust vertical position of Project & Github buttons*/
+  padding-bottom: 2%;
+  background-color: white;
+  border: none !important;
+}
 
 .card-title h5{
   font-weight: bold;
