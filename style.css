@@ -9,14 +9,10 @@ img{
   margin-right: 2px;
 }
 
-
 h1{
   text-align: center;
   margin-bottom: 2%;
 }
-
-
-
 
 /*--- Project Cards ---*/
 .btn-div{
@@ -28,7 +24,6 @@ h1{
 .btn-div a {
   width: 100%;
 }
-
 
 .card-footer {
   background-color: white;
